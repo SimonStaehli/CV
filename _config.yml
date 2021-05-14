@@ -1,7 +1,7 @@
 
 title: My Resume
 url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
+baseurl: '/CV' #change it according to your repository name
 
 
 
@@ -17,6 +17,7 @@ twitter: http://www.twitter.com  ## your twitter account url
 linkedin: http://www.linkedin.com  ## your linkedin account url
 dribbble: http://www.dribble.com  ## you dribbble account url
 foursquare: http://www.foursquare.com  ## your foursquare account url
+github: https://github.com/SimonStaehli
 
 
 

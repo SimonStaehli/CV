@@ -165,7 +165,7 @@ jQuery(document).ready(function($) {
     $contactform.submit(function() {
         $.ajax({
             type: "POST",
-            url: "php/contact.php",
+            url: "https://simonstaehli.github.io/CV/",
             data: $(this).serialize(),
             success: function(msg)
             {

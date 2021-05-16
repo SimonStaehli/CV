@@ -165,7 +165,7 @@ jQuery(document).ready(function($) {
     $contactform.submit(function() {
         $.ajax({
             type: "POST",
-            url: "https://simonstaehli.github.io/CV/",
+            url: "https://5.196.23.58:8443/smb/file-manager/list/domainId/3?modals%5Beditor%5D=eyJjdXJyZW50RGlyIjoiL3NpbW9uY3Yud3d3LndlYi1uZ3NvZnQuY29tL3BocC8iLCJmaWxlIjoiY29udGFjdC5waHAiLCJtb2RlIjoiY29kZS1lZGl0b3IiLCJ0eXBlIjoid2Vic2NyaXB0In0%3D",
             data: $(this).serialize(),
             success: function(msg)
             {

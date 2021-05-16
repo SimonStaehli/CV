@@ -61,20 +61,20 @@
 
                     <div id="contact-status"></div>
 
-                    <form action="mailto:simon.a.staehli@gmail.com" method="GET" id="contactform">
+                    <form action="https://submit-form.com/aZdfTKXC" method="GET" id="contactform">
 
                         <p class="form-group" id="contact-name">
                             <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Name..." />
+                            <input type="text" id="name" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Name..." />
                         </p>
                         <p class="form-group" id="contact-email"> 
                             <label for="email">Your Email</label>
-                            <input type="email" name="cc" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
+                            <input type="email" id="email" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
                         </p>
 
                         <p class="form-group" id="contact-message">
                             <label for="message">Your Message</label>
-                            <textarea name="subject" type="text" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Message..."></textarea>
+                            <textarea id="message" name="message" type="text" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Message..."></textarea>
                         </p>
                         <input type="reset" name="reset" value="CLEAR" class="reset">
 
@@ -83,13 +83,19 @@
                         </section>
 
                     </form>
-                    <form action="mailto:zacharienguefack@gmail.com"
-                    method="POST"
-                    enctype="multipart/form-data"
-                    name="EmailForm">
-                    Name:<br><input type="text" size="19" name="ContactName"><br><br>
-                    Message:<br> <textarea name="ContactCommentt" rows="6" cols="20">
-                    </textarea><br><br> <input type="submit" value="Submit">
+                    <form action="https://submit-form.com/aZdfTKXC">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Name" required="" />
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Email" required="" />
+                      <label for="message">Message</label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Message"
+                        required=""
+                      ></textarea>
+                      <button type="submit">Send</button>
                     </form>
                 </div>
             </div>

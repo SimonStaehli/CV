@@ -1264,7 +1264,8 @@ ul.about {
 }
 
 #resume .attributes li.first{
-    margin-top: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 25px !important;
 }
 
 #resume .attributes .duration i{

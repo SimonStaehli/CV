@@ -815,6 +815,7 @@ ul.about li span.value {
     width: 220px;
     text-align: left;
     float: right;
+    margin-right: 150px;
 }
 ul.about li {
     margin: 0;
@@ -1010,6 +1011,7 @@ ul.about {
 .widget-profil #profile_social
 {
     padding-top: 15px;
+    text-align: center;
 }
 
 #profile_social a{
@@ -1022,8 +1024,7 @@ ul.about {
     border-style: solid;
     text-align: center;
     font-size: 24px;
-    float: left;
-    display: block;
+    display: inline-block;
     color : #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -1242,7 +1243,8 @@ ul.about {
 ---------------------------------------------------*/
 
 #resume .col-md-6 span.duration {
-    float: right;
+    display: block;
+    margin-top: 5px;
 }
 #resume .col-md-6 ul li {
     list-style: none;

@@ -497,7 +497,8 @@ h2.resp-accordion:hover {
 }
 .contact-info ul li {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 0px;
+    margin-bottom: 10px;
     color: #666;
     overflow: hidden;
     width: 267px;

@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
             }
         });
 
-        if (tab_name == "contact")
+        //if (tab_name == "contact")
             initialize();
 
         return false;

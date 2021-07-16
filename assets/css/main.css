@@ -406,7 +406,7 @@ p {
     line-height: 22px;
     text-align: left;
     margin: 0;
-    color: #999 !important;
+    color: #505050 !important;
     font-family: 'Lato', sans-serif;
 }
 .active-hi-icon {
@@ -829,7 +829,7 @@ ul.about li span.value {
 }
 ul.about li {
     margin: 0;
-    color: #717171;
+    color: #505050;
     display: block;
     font-size: 13px;
     border-bottom: 1px solid #e6e6e6;

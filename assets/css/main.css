@@ -402,8 +402,8 @@ h2.resp-accordion:first-child {
     top: 2px;
 }
 p {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 18px;
     text-align: left;
     margin: 0;
     color: #505050 !important;
@@ -1009,8 +1009,8 @@ ul.about {
 
 .widget-profil #profile_desc
 {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .widget-profil #profile_info

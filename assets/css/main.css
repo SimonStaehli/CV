@@ -998,7 +998,7 @@ ul.about {
 }
 .widget-profil  h6 {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 
 }
@@ -1009,18 +1009,18 @@ ul.about {
 
 .widget-profil #profile_desc
 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .widget-profil #profile_info
 {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .widget-profil #profile_social
 {
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
 }
 
@@ -1091,7 +1091,7 @@ ul.about {
     }
 
     .widget-profil h1 {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 50px;
     }
 

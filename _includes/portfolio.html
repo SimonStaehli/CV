@@ -12,10 +12,88 @@
                 <section id="blog-page">
 
                     <!-- Blog Post NLP-Model -->
+                    <article id="post-3" class="blog-article">
 
+                        <div class="col-md-12">
+
+                            <div class="row">
+
+                                <div class="col-md-12 post_media">
+
+                                    <div class="post-format-icon">
+                                    </div>
+
+                                    <div class="media">
+                                        <div class="he-wrap tpl2">
+                                            <img src="images/blog/ethereum_coin.jpg" class="img-hover" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 post_content">
+                                    <div class="content post_format_standart">
+                                        <div class="top_c ">
+
+                                            <div class="title_content">
+                                                <div class="text_content"><a href="#post-3" class="read_more"> NLP Model for Polarity Classification of Crypto Tweets </a></div>
+                                                <div class="clear"></div>
+                                            </div>
+
+                                            <ul class="info">
+                                                <li><i class="glyphicon glyphicon-time"></i> December 30, 2021</li>
+                                                <li><i class="glyphicon glyphicon-user"></i> Simon Staehli </li>
+                                                <li><i class="glyphicon glyphicon-tag"></i> Natural Language Processing, Twitter, Crypto, Sentiment Analysis, Keras, Machine Learning </li>
+                                            </ul>
+
+                                            <div class="blog-content">
+                                                <p><i class="fa fa-quote-left"></i>
+                                                    Natural Language Processing is a worldwide cutting-edge field of study.
+                                                    In the study course Natural Language Processing we have learned how to deal with text sequences.
+                                                    In particular, what kind of traditional methods exist to process text data as well as straight forward
+                                                    methods like Word Embeddings with GloVe and subsequent classifications by RNN’s or Seq2Seq models for
+                                                    Machine Translation. Furthermore, we have learned more about Transformers and their application on real
+                                                    world problems. As a project for this study course we performed a polarity classification of Twitter
+                                                    tweets regarding to the cryptocurrency Ethereum. For this project we collected data from the Twitter
+                                                    API and stored it in a MongoDB. Afterwards we took all tweets from users with more than 20’000 followers
+                                                    as we thought that their tweets were more valuable than users with less. Afterwards we created a
+                                                    labelling interface with tkinter. Each group member labelled 1000 Tweets. After the labelling was
+                                                    proceeded, we could see that we had many mismatched labels among equal tweets as we intentionally
+                                                    grabbed similar tweets as test labelling to check if we are all labelling redundantly. Anyway, this
+                                                    was not the case, so we decided to check some of the discrepancies in our labels and defined a straight
+                                                    labelling strategy. At the end we had 3000 labelled tweets concerning the cryptocurrency Ethereum.
+                                                    To enhance our data basis, we also decided to download further tweets from another project called
+                                                    Semeval2017 with prelabelled tweets. Though, the tweets from Semeval were more ordinary and not theme
+                                                    focussed. As we were finished with the collection of the Ground Truth we started modelling. Each group
+                                                    member had the task to fit different models. We compared three different models: Naïve Bayes, Logistic
+                                                    Regression and a Linear Support Vector Machine. From those, the Support Vector Machine performed best,
+                                                    so we took it further and applied different pre-processing steps, such as n-grams, lemmatization etc.
+                                                    with the aim to increase the performance of the model. At the end our model achieved an F1-Score with
+                                                    macro-averaging (class imbalance) of 50.1%. After, we accomplished traditional approaches, we went over
+                                                    to apply a pre-trained transformer model. We decided to take Distilbert – a distilled version of Bert.
+                                                    With transfer-learning we trained the model on our data. We were able to increase the prediction performance
+                                                    slightly on 56% F1-score. Hence in our opinion resulted the overall medium performance first on the less data
+                                                    especially for negative sentiments and the discrepancies in our labelling.  At the review of the wrong
+                                                    predicted labels, we could see that our model partially better labelled than we did. Ultimately, takeaways
+                                                    from this project were that one needsa solid ground truth to build a robust model, heterogenous
+                                                    train-validate-test splits on our data, to make test data more representative and of course the theoretical
+                                                    knowledge about how those models work and which pre-processing steps could be applied to increase model performances.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </article>
+
+                    <div class="clear"></div>
 
                     <!-- Blog Housing Price Calc -->
-                    <article id="post-3" class="blog-article">
+                    <article id="post-2" class="blog-article">
 
                         <div class="col-md-12">
 
@@ -86,7 +164,7 @@
                     <div class="clear"></div>
 
                     <!-- Blog Social Network Analysis -->
-                    <article id="post-3" class="blog-article">
+                    <article id="post-1" class="blog-article">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-12 post_media">

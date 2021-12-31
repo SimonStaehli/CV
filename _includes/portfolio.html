@@ -54,30 +54,30 @@
                                                     methods like Word Embeddings with GloVe and subsequent classifications by RNN’s or Seq2Seq models for
                                                     Machine Translation. Furthermore, we have learned more about Transformers and their application on real
                                                     world problems. As a project for this study course we performed a polarity classification of Twitter
-                                                    tweets regarding to the cryptocurrency Ethereum. For this project we collected data from the Twitter
-                                                    API and stored it in a MongoDB. Afterwards we took all tweets from users with more than 20’000 followers
-                                                    as we thought that their tweets were more valuable than users with less. Afterwards we created a
+                                                    tweets related to the cryptocurrency Ethereum. For this project we collected data from the Twitter-API
+                                                    and stored it in a MongoDB. Afterwards we took all tweets from users with more than 20’000 followers
+                                                    as we thought that their tweets might be more valuable than users with less. Afterwards we created a
                                                     labelling interface with tkinter. Each group member labelled 1000 Tweets. After the labelling was
-                                                    proceeded, we could see that we had many mismatched labels among equal tweets as we intentionally
-                                                    grabbed similar tweets as test labelling to check if we are all labelling redundantly. Anyway, this
-                                                    was not the case, so we decided to check some of the discrepancies in our labels and defined a straight
-                                                    labelling strategy. At the end we had 3000 labelled tweets concerning the cryptocurrency Ethereum.
+                                                    proceeded, we could see that we had many mismatched labels among equal tweets. We intentionally
+                                                    grabbed similar tweets for test labelling to check if we are all labelling redundantly. Anyway, this
+                                                    was not the case, so we decided to check some of the discrepancies in our labels and defined a clear
+                                                    labelling strategy. We ended up with 3000 labelled tweets concerning the cryptocurrency Ethereum.
                                                     To enhance our data basis, we also decided to download further tweets from another project called
                                                     Semeval2017 with approx 7'000 pre-labelled tweets. Though, the tweets from Semeval were more ordinary and not theme
-                                                    focussed. As we were finished with the collection of the Ground Truth we started modelling. Each group
+                                                    focussed. As we were finished with the collection of data we started modelling. Each group
                                                     member had the task to fit different models. We compared three different models: Naïve Bayes, Logistic
                                                     Regression and a Linear Support Vector Machine. From those, the Support Vector Machine performed best,
-                                                    so we took it further and applied different pre-processing steps, such as n-grams, lemmatization etc.
+                                                    so we took it further and applied different pre-processing steps, such as n-grams, Lemmatization etc.
                                                     with the aim to increase the performance of the model. At the end our model achieved an F1-Score with
-                                                    macro-averaging (class imbalance) of 50.1%. After, we accomplished traditional approaches, we went over
-                                                    to apply a pre-trained transformer model. We decided to take Distilbert – a distilled version of Bert.
+                                                    macro-averaging (class imbalance) of 50.1%. After we accomplished traditional approaches, we went over
+                                                    to apply a pre-trained transformer model. We decided to take Distilbert – a distilled version of Bert Transformer model.
                                                     With transfer-learning we trained the model on our data. We were able to increase the prediction performance
-                                                    slightly on 56% F1-score. Hence in our opinion resulted the overall medium performance first on the less data
+                                                    slightly on 56% F1-score. Hence in our opinion resulted the medium performance on less available data
                                                     especially for negative sentiments and the discrepancies in our labelling.  At the review of the wrong
                                                     predicted labels, we could see that our model partially better labelled than we did. Ultimately, takeaways
-                                                    from this project were that one needsa solid ground truth to build a robust model, heterogenous
+                                                    from this project were that one needs a solid ground truth (labels) to build a robust model, heterogeneous
                                                     train-validate-test splits on our data, to make test data more representative and of course the theoretical
-                                                    knowledge about how those models work and which pre-processing steps could be applied to increase model performances.
+                                                    knowledge about how those models work and which pre-processing steps could be applied to increase their performances.
                                                 </p>
                                             </div>
                                         </div>
@@ -133,20 +133,20 @@
                                                     It was about to predict housing prices of swiss housing objects. The data was collected
                                                     from ImmoScout24.ch and contained over 240’000 house objects spread all over Switzerland.
                                                     The project setting was distributed as a private Kaggle Challenge, which was only accessible
-                                                    as a member of the students who applied for this project. The dataset consisted of describing
-                                                    features for houses like: Inside and Outside Area, amount of Rooms, house object, zip code,
-                                                    exact address and much more. For our final model our team ended up with a XGBoost Regression
+                                                    as a student who applied for this project. The dataset consisted of describing
+                                                    features for houses like: inside and outside Area, amount of rooms, house type, zip code,
+                                                    exact address etc.. For our final model our team ended up with a XGBoost Regression
                                                     (Gradient Boosted Tree) model with a Mean Absolute Percentage Error of 12.76%. This score was
                                                     the best of all applicants. Very important steps we performed to increase the performance of
-                                                    our model were especially the imputation of missing values, where we applied an easy strategy
-                                                    as median imputation. Futhermore we applied input transformations as well as the log transformation on
+                                                    our model were especially the imputation of missing values, where we applied median imputation.
+                                                    Furthermore, we applied input transformations as well as the log transformation on
                                                     the target value, which led to a performance increase. Another helpful step was to collect more
                                                     data to join it on our dataset. We collected additional information for all our zip addresses.
-                                                    For example, if the place has a railway station our how man y people have railway abonnement
+                                                    For example, if the place has a railway station or how many people owning a rail subscription
                                                     living at this place. These features helped us to enhance the performance of our model slightly
                                                     and sat us apart from the other contestants. As we created our final model, the next task was
-                                                    to contribute our model for customer. Therefore, we had to create an API, which takes data as
-                                                    input as JSON and puts it through our preprocessing pipeline in our model and eventually returns
+                                                    to contribute our model for potential customers. Therefore, we had to create an API, which takes data as
+                                                    JSON input and puts it through our preprocessing pipeline in our model and eventually returns
                                                     predictions. We have learned so much from this project about machine learning pipelines, modelling,
                                                     evaluation of models, creation of API’s and about the software package Sklearn and its application in practice.
                                                 </p>

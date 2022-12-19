@@ -1,3 +1,3 @@
 ### Curricullum Vitae
 
-Link to the webpage: https://simonstaehli.github.io/CV/
+Link to the webpage: https://simsta1.github.io/CV/
